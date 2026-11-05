@@ -56,7 +56,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col font-sans antialiased selection:bg-slate-900 selection:text-white">
+    <div className="min-h-screen bg-[#4169e1] text-slate-900 flex flex-col font-sans antialiased selection:bg-slate-900 selection:text-white">
       {/* Top App Header */}
       <Header
         activeTab={activeTab}
@@ -83,10 +83,10 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-200 bg-white py-6 mt-12 text-xs text-slate-500">
+      <footer className="border-t border-blue-400/30 bg-[#3457c7] py-6 mt-12 text-xs text-blue-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center gap-2">
-            <span className="font-semibold text-slate-700">
+            <span className="font-semibold text-white">
               Regional Sales Diagnostic Engine
             </span>
             <span aria-hidden="true">·</span>
@@ -94,7 +94,7 @@ export default function App() {
             <span aria-hidden="true">·</span>
             <span>FY2026 Q1–Q3 Closed Data</span>
           </div>
-          <div>
+          <div className="text-blue-200">
             Built with rigorous mathematical reconciliation and root-cause analysis
           </div>
         </div>
