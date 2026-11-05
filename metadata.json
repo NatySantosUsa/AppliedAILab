@@ -1,0 +1,6 @@
+{
+  "name": "West Region Sales Performance & Diagnostic Dashboard",
+  "description": "Executive revenue decline analysis, root-cause decomposition, and strategic turnaround actions for the West sales region (Jan-Sep 2026).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
